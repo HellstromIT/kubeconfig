@@ -22,7 +22,7 @@ jobs:
         goos: ${{ matrix.goos }}
         goarch: ${{ matrix.goarch }}
         goversion: "https://golang.org/dl/go1.16.2.linux-amd64.tar.gz"
-        binary_name: "kubeconfig"
+        binary_name: "k8sconfig"
         project_path: cmd/kubeconfig
         ldflags: -X "main.version=${{ env.APP_VERSION }}"
         extra_files: LICENSE README.md
@@ -43,7 +43,7 @@ jobs:
         goos: ${{ matrix.goos }}
         goarch: ${{ matrix.goarch }}
         goversion: "https://golang.org/dl/go1.16.2.linux-amd64.tar.gz"
-        binary_name: "kubeconfig"
+        binary_name: "k8sconfig"
         project_path: cmd/kubeconfig
         ldflags: -X "main.version=${{ env.APP_VERSION }}"
         extra_files: LICENSE README.md
@@ -64,7 +64,7 @@ jobs:
         goos: ${{ matrix.goos }}
         goarch: ${{ matrix.goarch }}
         goversion: "https://golang.org/dl/go1.16.2.linux-amd64.tar.gz"
-        binary_name: "kubeconfig"
+        binary_name: "k8sconfig"
         project_path: cmd/kubeconfig
         ldflags: -X "main.version=${{ env.APP_VERSION }}"
         extra_files: LICENSE README.md
